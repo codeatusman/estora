@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .flexCenter {
+    @apply items-center justify-center;
+  }
+  .flexBetween {
+    @apply items-center justify-between;
+  }
+  .btn {
+    @apply flex-row flexCenter gap-2 bg-primary rounded-3xl py-4 items-center;
+  }
+  .input {
+    @apply bg-white border border-accent-200 text-accent rounded-[1.1rem] px-4 py-3.5 text-sm;
+  }
+}
